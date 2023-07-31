@@ -5,6 +5,9 @@
 #define MAX_PASSWORD_LENGTH 60
 
 
+void generatePassword(char *pswd, int length) {
+
+
 
 
 
