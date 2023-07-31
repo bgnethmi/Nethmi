@@ -24,6 +24,13 @@ void generatePassword(char *pswd, int length) {
     pswd[length] = '\0';
 }
 
+int main() {
+    int length;
+
+    printf("Password Generator\n");
+    printf("Enter the desired length of the password: ");
+    scanf("%d", &length);
+
 
 
 
