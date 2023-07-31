@@ -31,6 +31,12 @@ int main() {
     printf("Enter the desired length of the password: ");
     scanf("%d", &length);
 
+    if (length <= 0 || length > MAX_PASSWORD_LENGTH) {
+        printf("Invalid password length. Please choose a length between 1 and %d.\n", MAX_PASSWORD_LENGTH);
+        return 1;
+    }
+
+
 
 
 
