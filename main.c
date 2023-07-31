@@ -36,6 +36,14 @@ int main() {
         return 1;
     }
 
+    char pswd[MAX_PASSWORD_LENGTH + 1];
+    generatePassword(pswd, length);
+
+    printf("Generated Password: %s\n", pswd);
+
+    return 0;
+}
+
 
 
 
